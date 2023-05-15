@@ -73,3 +73,30 @@ nav {
   padding: 0;
   margin: 0;
 }
+
+.BeerDetail img {
+  height: 40vh;
+  padding: 2%;
+}
+
+.BeerDetailHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.BeerDetail h1 {
+  font-size: 2rem;
+}
+
+.BeerDetail h2 {
+  color: grey;
+}
+
+.BeerDetail p {
+  color: black;
+}
+
+.BeerDetail h4 {
+  color: grey;
+}

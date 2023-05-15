@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import ListBeersPage from "./pages/ListBeersPage";
 import NewBeerPage from "./pages/NewBeerPage";
 import RandomBeerPage from "./pages/RandomBeerPage";
+import SingleBeerPage from "./pages/SingleBeerPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/beers" element={<ListBeersPage />}></Route>
         <Route path="/newbeer" element={<NewBeerPage />}></Route>
         <Route path="/randombeer" element={<RandomBeerPage />}></Route>
+        <Route path="/beers/:beerId" element={<SingleBeerPage />}></Route>
       </Routes>
     </div>
   );
